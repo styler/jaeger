@@ -1,4 +1,4 @@
-FROM python:3-alpine
+FROM python:3.11.0a2-alpine
 
 # Temporary fix for https://github.com/jaegertracing/jaeger/issues/1494
 RUN pip install urllib3==1.24.3
